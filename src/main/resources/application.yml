@@ -3,9 +3,9 @@ spring:
   application:
     name: OnlineCourse
   datasource:
-    password: elyor1202
+    url: jdbc:postgresql://postgres.railway.internal:5432/railway
     username: postgres
-    url: jdbc:postgresql://localhost:5432/postgres
+    password: bTBqHhRRHRFOCivdIIZtqYwWHCAqUiAg
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
